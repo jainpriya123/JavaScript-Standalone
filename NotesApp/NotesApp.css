@@ -3,13 +3,16 @@
     padding: 0;
 }
 
-.head {
-    height: 100vh;
-    background: linear-gradient(to bottom right, rgb(177, 114, 236), rgb(212, 143, 212));
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
 }
 
 .container {
-    padding: 7% 7%;
+    padding: 7%;
 }
 
 .heading {
@@ -17,7 +20,7 @@
     padding-bottom: 20px;
 }
 
-.text {
+.heading-value {
     font-size: 30px;
     color: rgb(255, 255, 255);
     display: flex;
@@ -25,18 +28,19 @@
     align-items: center;
 }
 
-.button {
+.add-button-div {
     display: flex;
     width: 150px;
 }
 
-.pen {
-    height: 18px;
-    width: 18px;
-    color: aliceblue;
+.icon {
+    position: relative;
+    right: 15px;
+    cursor: pointer;
+    bottom: 5px;
 }
 
-.btn {
+.add-button {
     border-style: none;
     border-radius: 14px;
     background-color: rgb(142, 59, 220);
@@ -48,6 +52,19 @@
     align-items: center;
 }
 
-.btn:hover{
+.add-button:hover {
     background-color: rgb(110, 37, 179);
+}
+
+#inputArea {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.inputData {
+    width: 50%;
+    height: 40%;
+    padding: 5px;
+    resize: none;
 }
