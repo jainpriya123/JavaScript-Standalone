@@ -1,0 +1,40 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    border-radius: 5px;
+}
+
+.inputArea {
+    display: flex;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.textArea {
+    font-size: 1.5rem;
+}
+
+.submitBtn {
+    font-size: 1.2rem;
+    font-weight: 200;
+    padding: 6px;
+    background-color: rgb(70, 220, 92);
+    color: #ffffff;
+    border-style: none;
+    box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+}
+
+.card {
+    width: 220px;
+    height: 300px;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 4%, rgba(253, 187, 45, 1) 90%);
+    box-shadow: rgba(100, 100, 111, 0.8) 0px 7px 29px 0px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
