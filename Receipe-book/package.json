@@ -1,0 +1,14 @@
+{
+  "name": "receipe",
+  "version": "1.0.0",
+  "description": "receipe book project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Priya Jain",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.97.1"
+  }
+}
