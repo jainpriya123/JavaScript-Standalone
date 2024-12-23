@@ -1,14 +1,19 @@
 {
-  "name": "receipe",
+  "name": "recipe",
   "version": "1.0.0",
-  "description": "receipe book project",
-  "main": "index.js",
+  "description": "Recipe Application",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "Priya Jain",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.97.1"
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0",
+    "regenerator-runtime": "^0.14.1"
   }
 }
